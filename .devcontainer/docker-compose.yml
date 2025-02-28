@@ -12,16 +12,15 @@ services:
       MONGODB_USER: ${ENV_DB_USER}
       MONGODB_PASSWORD: ${ENV_DB_PASSWORD}
 
-      # New Relic configuration
-      NEW_RELIC_APP_NAME: psundaramAzureApp
-      NEW_RELIC_LICENSE_KEY: {NEW_RELIC_LICENSE_KEY}
+      
+      
 
     volumes:
       - ../..:/workspaces:cached
-      - ./newrelic:/newrelic:ro
+      
 
-    # Modify the command to include the New Relic agent
-    command: java -javaagent:/newrelic/newrelic.jar -jar your-application.jar
+    
+    command: indefinite
 
     network_mode: service:db
 
