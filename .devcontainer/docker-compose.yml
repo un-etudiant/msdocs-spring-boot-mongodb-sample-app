@@ -14,7 +14,7 @@ services:
 
       # New Relic configuration
       NEW_RELIC_APP_NAME: psundaramAzureApp
-      NEW_RELIC_LICENSE_KEY: 794006b817ba7b42f7b4039d1d20058cFFFFNRAL
+      NEW_RELIC_LICENSE_KEY: {NEW_RELIC_LICENSE_KEY}
 
     volumes:
       - ../..:/workspaces:cached
