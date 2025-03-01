@@ -1,0 +1,4 @@
+com/microsoft/azure/appservice/examples/springbootmongodb/dao/TodoItemRepository.class
+com/microsoft/azure/appservice/examples/springbootmongodb/controller/TodoListController.class
+com/microsoft/azure/appservice/examples/springbootmongodb/model/TodoItem.class
+com/microsoft/azure/appservice/examples/springbootmongodb/TodoApplication.class

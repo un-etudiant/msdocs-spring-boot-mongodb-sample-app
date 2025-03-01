@@ -1,0 +1,4 @@
+/workspaces/msdocs-spring-boot-mongodb-sample-app/src/main/java/com/microsoft/azure/appservice/examples/springbootmongodb/TodoApplication.java
+/workspaces/msdocs-spring-boot-mongodb-sample-app/src/main/java/com/microsoft/azure/appservice/examples/springbootmongodb/controller/TodoListController.java
+/workspaces/msdocs-spring-boot-mongodb-sample-app/src/main/java/com/microsoft/azure/appservice/examples/springbootmongodb/dao/TodoItemRepository.java
+/workspaces/msdocs-spring-boot-mongodb-sample-app/src/main/java/com/microsoft/azure/appservice/examples/springbootmongodb/model/TodoItem.java
