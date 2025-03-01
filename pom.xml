@@ -43,5 +43,14 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <resources>
+            <resource>
+                <directory>newrelic</directory>
+                <excludes>
+                <exclude>**/*.class</exclude> <!-- Exclude compiled files if necessary -->
+            </excludes>
+            <targetPath>${project.build.directory}/newrelic</targetPath>
+            </resource>
+        </resources>
     </build>
 </project>
