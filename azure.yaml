@@ -24,7 +24,8 @@ hooks:
   postdeploy:
     posix: 
       shell: sh
-      run: printf "Open SSH session to App Service container at:\033[1;36m $WEB_APP_SSH\033[0m\nStream App Service logs at:\033[1;36m $WEB_APP_LOG_STREAM\n"
+      run: |
+      printf "Open SSH session to App Service container at:\033[1;36m $WEB_APP_SSH\033[0m\nStream App Service logs at:\033[1;36m $WEB_APP_LOG_STREAM\n"
       cp -r target/newrelic /home/site/wwwroot/newrelic
       interactive: true
       continueOnError: true
